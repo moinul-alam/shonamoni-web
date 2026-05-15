@@ -25,7 +25,9 @@
   transition: box-shadow var(--transition);
 }
 
-#navbar.scrolled { box-shadow: var(--shadow-sm); }
+#navbar.scrolled {
+  box-shadow: var(--shadow-sm);
+}
 
 /* Back link */
 .nav-back {
@@ -41,9 +43,16 @@
   white-space: nowrap;
 }
 
-.nav-back svg { width: 14px; height: 14px; stroke: currentColor; flex-shrink: 0; }
+.nav-back svg {
+  width: 14px;
+  height: 14px;
+  stroke: currentColor;
+  flex-shrink: 0;
+}
 
-.nav-back:hover { color: var(--teal); }
+.nav-back:hover {
+  color: var(--teal);
+}
 
 /* Brand — center */
 .nav-brand {
@@ -52,29 +61,27 @@
   transform: translateX(-50%);
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   text-decoration: none;
 }
 
 .nav-logo {
-  width: 32px;
-  height: 32px;
+  height: 48px;
+  width: auto;
   object-fit: contain;
   flex-shrink: 0;
+}
+
+.nav-title-img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
 }
 
 .nav-name {
   display: flex;
   align-items: center;
-  gap: 4px;
-  font-family: var(--font-display);
-  font-size: 1.4rem;
-  font-weight: 700;
-  letter-spacing: 0.01em;
 }
-
-.nav-sona { color: var(--orange); }
-.nav-moni { color: var(--teal); }
 
 /* Nav links */
 .nav-links {
@@ -106,10 +113,14 @@
 }
 
 .nav-links a:hover,
-.nav-links a.active { color: var(--teal); }
+.nav-links a.active {
+  color: var(--teal);
+}
 
 .nav-links a:hover::after,
-.nav-links a.active::after { width: 100%; }
+.nav-links a.active::after {
+  width: 100%;
+}
 
 
 /* ─── 2. FOOTER ─────────────────────────────────────────────── */
@@ -134,7 +145,9 @@
   transition: opacity var(--transition);
 }
 
-.footer-brand:hover { opacity: 0.7; }
+.footer-brand:hover {
+  opacity: 0.7;
+}
 
 .footer-app {
   font-size: 0.85rem;
@@ -150,7 +163,9 @@
 
 /* ─── RESPONSIVE ────────────────────────────────────────────── */
 @media (max-width: 768px) {
-  .nav-links { display: none; }
+  .nav-links {
+    display: none;
+  }
 
   #footer {
     flex-direction: column;
@@ -158,5 +173,7 @@
     gap: 0.5rem;
   }
 
-  .footer-app { display: none; }
+  .footer-app {
+    display: none;
+  }
 }

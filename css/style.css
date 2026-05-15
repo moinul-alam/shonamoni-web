@@ -20,12 +20,12 @@
 /* ─── 1. VARIABLES ──────────────────────────────────────────── */
 :root {
   /* Brand Colors */
-  --teal:           #4A90A4;
-  --teal-dark:      #376C7D;
-  --teal-light:     #EAF4F7;
-  --teal-mid:       #C4DDE4;
-  --teal-dim:       rgba(74, 144, 164, 0.1);
-  --teal-glow:      rgba(74, 144, 164, 0.25);
+  --teal:           #7C3AED;
+  --teal-dark:      #5B21B6;
+  --teal-light:     #F5F3FF;
+  --teal-mid:       #C4B5FD;
+  --teal-dim:       rgba(124, 58, 237, 0.1);
+  --teal-glow:      rgba(124, 58, 237, 0.25);
   --orange:         #F4A261;
   --orange-dark:    #D4844B;
   --orange-light:   #FEF3EA;
@@ -49,9 +49,9 @@
   --radius:         12px;
   --radius-lg:      20px;
   --transition:     0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  --shadow-sm:      0 2px 8px rgba(74, 144, 164, 0.08);
-  --shadow:         0 8px 32px rgba(74, 144, 164, 0.12);
-  --shadow-lg:      0 24px 64px rgba(74, 144, 164, 0.16);
+  --shadow-sm:      0 2px 8px rgba(124, 58, 237, 0.08);
+  --shadow:         0 8px 32px rgba(124, 58, 237, 0.12);
+  --shadow-lg:      0 24px 64px rgba(124, 58, 237, 0.16);
 }
 
 
